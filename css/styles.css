@@ -1,0 +1,219 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#FFFFFF;
+    color: #000000;
+}
+
+
+.navbar {
+    background-color: #000000;
+    padding: 15px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.navbar ul li a {
+    color: red;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    transition: background 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+/* Estilo del encabezado */
+.hero {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+/* Contenedor principal */
+.container {
+    max-width:100%;
+    margin:3px auto;
+    padding:500px;
+    background-color:white;
+    border-radius: 1px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.section {
+    margin-bottom: 40px;
+}
+
+.section h1 {
+    font-size: 21px;
+    color: #007BFF;
+}
+
+.section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+.image-text-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.image-text-container img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar ul li {
+        margin-bottom: 10px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+}
+
+/* Estilos Generales */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #FCFCFC;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h3, h5 {
+  font-family: 'Verdana', sans-serif;
+}
+
+.navbar {
+  background-color: #000000;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  color:white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.navbar ul li a:hover {
+  background-color: #00C409;
+  border-radius: 5px;
+}
+
+.hero {
+  text-align: center;
+  background-color:#0F19A9;
+  padding: 50px 0;
+}
+
+.hero h1 {
+  font-size: 3em;
+  color: #000000;
+ }
+
+
+.container {
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+/* Estilos de imágenes */
+.image-text-container img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #0288d1;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border: 1px solid #FFFFFF;
+}
+
+th {
+  background-color: #FFFFFF;
+  color: white;
+}
+
+td {
+  background-color: #FFFFFF;
+}
+
+td img {
+  max-width: 100px;
+  border-radius: 5px;
+}
+
+
+h3 {
+  color: #F61100;
+}
+
+h5 {
+  color: #770096;
+}
+
+footer {
+  background-color: # ;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
